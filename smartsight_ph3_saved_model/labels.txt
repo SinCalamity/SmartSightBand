@@ -1,0 +1,5 @@
+chair
+door
+person
+table
+stairs

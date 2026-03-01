@@ -1,0 +1,27 @@
+description: Ultralytics smartsight_ph3 model trained on C:\Users\vince matthew\Desktop\SmartSight
+  Band 2\Prototype\datasetV2\indoor.v1i.yolov8\data.yaml
+author: Ultralytics
+date: '2026-03-01T16:23:43.848908'
+version: 8.4.16
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: chair
+  1: door
+  2: person
+  3: table
+  4: Stairs
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
+end2end: false
